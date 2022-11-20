@@ -1,0 +1,67 @@
+/*styles généraux*/
+*{
+list-style: none;
+margin: 0;
+padding: 0;
+outline: none;
+box-sizing: border-box;
+text-decoration: none;
+color: inherit;
+cursor: pointer;
+}
+body{
+font-family: Raleway;
+background-color: aliceblue;
+}
+
+/*flex box*/
+.flexC{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flexB{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.flexC{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.flexW{
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+/*writings*/
+.title{
+font-weight: bold;
+}
+
+
+/*blocks*/
+.cards{
+border: 1px transparent solid;
+border-radius: 15px;
+}
+
+.marg1{
+margin: 10px 0px;
+}
+
+.marg2{
+margin: 20px 0px;
+}
+
+.lines{
+margin: 0px 10px;
+}
+
+#pics,#img01,#img02,#img03,#img04,#img05,#img06{
+display: none;
+flex-wrap: wrap-reverse;
+}
+
